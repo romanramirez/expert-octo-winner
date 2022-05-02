@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello!</title>
+    <title>Welcome to my web page</title>
     <style>
-      #foo {
-        color: blue;
+      @media (min-width: 600px) {
+        body {
+          background-color: red;
+        }
+      }
+
+      @media (max-width: 599px) {
+        body {
+          background-color: blue;
+        }
       }
     </style>
   </head>
   <body>
-    <h1 id="foo">Welcome to my Web page!</h1>
-    <h1>This is a second heading</h1>
-    <h1>This is a third heading</h1>
+    <h1>Welcome to my new website!</h1>
   </body>
 </html>
